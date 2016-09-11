@@ -29,11 +29,10 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 /*2.0 Sections*/
 
 .page-container {
-    border: 10px solid black;
+    /*border: 10px solid black;*/
     width: 100%;
-    /*test if this is really needed*/
-    margin-right: 0;
-    margin-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -54,12 +53,12 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 
 
 .banner {
-    border: 5px solid pink;
+    /*border: 5px solid pink;*/
     width: 100%;
 }
 
 .marketplace {
-    border: 5px solid blue;
+    /*border: 5px solid blue;*/
     width: 100%;
 }
 
@@ -79,7 +78,9 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 .footer {
     clear: both;
     width: 100%;
-    border: 5px solid green;
+    margin: 0;
+    padding: 0;
+    /*border: 5px solid green;*/
 }
 
 /*TODO: rename this class*/
@@ -95,6 +96,7 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
     border: 1px solid #737373;
     width: 150px;
     height: 350px;
+    /*I <3 box shadow. . . maybe can show SrSo?*/
     /*box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);*/
     margin: 20px;
     padding: 10px;
@@ -133,44 +135,39 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 /* = Buttons
 -------------------------------------------------------------- */
 .btn {
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 1.42857143;
-    text-align: center;
+    height: 45px;
+    width: 170px;
+    margin-left: -10px;
     white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    border-radius: 8%;
+    color: black;
     background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
 }
 
 .btn .pull-right{
     margin: 0 0 5px 5px;
 }
-.btn-d,.btn-d:hover,.btn-d:focus{
+.btn-d,.btn-d:focus{
     color: white!important;
     background-color:#d63223;
+    /*height:*/ 
+    text-align: center;
 }
 
+.btn-d:hover {
+    background-color: #333333;
+}
 
+/*.btn-txt {
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+}*/
 
 .btn-wire{
-    background:transparent!important;
-    border:2px solid transparent;
+    border: 0.5px solid #333333;
 }
-.btn-wire:hover{
-    background:transparent!important;
-    border:2px solid transparent;
-}
+
 .btn-xl{
     padding: 16px 40px;
     font-size: 28px;
@@ -243,6 +240,11 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
     margin: 0;
 }
 
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /* 4.0 Colors
 -------------------------------------------------------------- */
@@ -267,6 +269,11 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 .tc-white{
     color:#ffffff!important;
 }
+
+
+
+
+
 /* Button colour styles */
 
 .wire-btn-carmine-pink{
@@ -277,12 +284,18 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
     color:#ffffff!important;
     border-color:#ffffff!important;
 }
-
+/*
 .quote {
     color: rgba(0,0,0,.1);
     text-align: center;
     margin-bottom: 30px;
-}
+}*/
+
+
+
+
+
+
 /*5.0 Images/Video*/
 
 iframe{
