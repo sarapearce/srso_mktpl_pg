@@ -18,17 +18,10 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }*/
-a:hover{text-decoration: none; cursor:pointer;}
-
-a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
-
-h1, h2, h3, h4, h5, h6, p, label, .btn, a{
-    font-family: Lato;
-}
 
 /*2.0 Sections*/
 
-.page-container {
+.ss-page-container {
     /*border: 10px solid black;*/
     width: 100%;
     margin: 0;
@@ -36,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 }
 
 
-.bloc{
+.ss-bloc{
     width:100%;
     clear:both;
     background: 50% 50% no-repeat;
@@ -46,36 +39,36 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
     background-size: cover 200%;
     position:relative;
 }
-.bloc .container{
+.ss-bloc .ss-container{
     padding-left:0;
     padding-right:0;
 }
 
 
-.banner {
+.ss-banner {
     /*border: 5px solid pink;*/
     width: 100%;
 }
 
-.marketplace {
+.ss-marketplace {
     /*border: 5px solid blue;*/
     width: 100%;
 }
 
-.marketplace p {
+.ss-marketplace p {
     color: black;
 }
 
-.short-rect h2 {
+.ss-short-rect h2 {
     padding-top: 20px;
 }
 
-.header {
+.ss-header {
     margin: 0;
     height: 50px;
 }
 
-.footer {
+.ss-footer {
     clear: both;
     width: 100%;
     margin: 0;
@@ -84,14 +77,14 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 }
 
 /*TODO: rename this class*/
-.short-rect {
+.ss-short-rect {
     /*width: 100%;*/
     height: 70px;
     text-transform: uppercase;
     margin: 0;
 }
 
-.sm-col {
+.ss-sm-col {
     border: 1px solid #737373;
     width: 150px;
     height: 350px;
@@ -101,12 +94,12 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
     padding: 10px;
 }
 
-.list {
+.ss-list {
     /*display: flex;*/ 
     display: inline-block;
 }
 
-.list p {
+.ss-list p {
     height: 70px;
 }
 
@@ -114,187 +107,179 @@ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
 
 /* Sizes */
 
-.bloc-xl{
+.ss-bloc-xl{
     padding:150px 50px;
 }
-.bloc-lg{
+.ss-bloc-lg{
     padding:0px 50px;
 }
-.bloc-md{
+.ss-bloc-md{
     padding:50px;
 }
-.bloc-sm{
+.ss-bloc-sm{
     padding:20px 50px;
 }
 
 /* Row Margin Offsets */
 
-.voffset{
+.ss-voffset{
     margin-top:30px;
 }
-.voffset-lg{
+.ss-voffset-lg{
     margin-top:80px;
 }
 
 /* = Buttons
 -------------------------------------------------------------- */
-.btn {
+.ss-btn {
     width: 142px;
 }
 
-.btn .pull-right{
+.ss-btn .ss-pull-right{
     margin: 0 0 5px 5px;
 }
-.btn-d,.btn-d:focus{
+.ss-btn-d,.ss-btn-d:focus{
     color: white!important;
     background-color:#d63223;
     text-align: center;
 }
 
-.btn-d:hover {
+.ss-btn-d:hover {
     background-color: #333333;
 }
 
-.btn-wire{
+.ss-btn-wire{
     border: 0.5px solid #333333;
 }
 
-.list .btn {
+.ss-list .ss-btn {
     margin-left: -7px;
 }
-.dropdown a .caret{
+.ss-dropdown a .ss-caret{
     margin:0 0 0 5px}
 
 /* = Icons if i use this it all needs to get prefixed
 -------------------------------------------------------------- */
-.icon-md{
+.ss-icon-md{
     font-size:30px!important;
 }
-.icon-xl{
+.ss-icon-xl{
     font-size:100px!important;
 }
 
 /* Image Frame */
-.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
+.ss-img-frame,.ss-img-frame-md,.ss-img-frame-lg,.ss-img-frame-rd,.ss-img-frame-rd-md,.ss-img-frame-rd-lg{
     background:#FFF;
     border:1px solid rgba(0,0,0,0.1);
     box-shadow:0 2px 2px rgba(0,0,0,0.05);
     padding:4px;
 }
-.img-frame{
+.ss-img-frame{
     border-radius:3px;
 }
-.img-frame-md,.img-frame-lg{
+.ss-img-frame-md,.ss-img-frame-lg{
     border-radius:6px;
 }
-.img-frame-md,.img-frame-rd-md{
+.ss-img-frame-md,.ss-img-frame-rd-md{
     padding:8px;
 }
-.img-frame-lg,.img-frame-rd-lg{
+.ss-img-frame-lg,.ss-img-frame-rd-lg{
     padding:14px;
 }
 
-.panel-sq, .panel-sq .panel-heading, .panel-sq .panel-footer{
+.ss-panel-sq, .ss-panel-sq .ss-panel-heading, .ss-panel-sq .ss-panel-footer{
     border-radius:0;
 }
-.panel-rd{
+.ss-panel-rd{
     border-radius:30px;
 }
-.panel-rd .panel-heading{
+.ss-panel-rd .ss-panel-heading{
     border-radius:29px 29px 0 0;
 }
-.panel-rd .panel-footer{
+.ss-panel-rd .ss-panel-footer{
     border-radius:0 0 29px 29px;
 }
 
 
 /*3.0 Texts*/
 
-.text-center {
+.ss-text-center {
     text-align: center;
     vertical-align: middle;
 }
 
-.text {
+.ss-text {
     background: transparent;
 }
 
-.short-rect h2 {
+.ss-short-rect h2 {
     vertical-align: middle;
     margin: 0;
     padding-top: 18px;
 }
 
-.header h1 {
+.ss-header h1 {
     padding-top: 5px;
     margin: 0;
 }
 
-.btn a {
+.ss-btn a {
     text-decoration: none;
     color: white;
 }
 
-.list h6 {
+.ss-list h6 {
     text-shadow: 2px 2px rgba(0,0,0,0.4);
     font-size: medium;
 }
 
 
-/* 4.0 Colors
+/* 4.ss-0 Colors
 -------------------------------------------------------------- */
 
 /* Background color styles */
 
-.bgc-white{
+.ss-bgc-white{
     background-color:#ffffff;
 }
 
-.bgc-red {
+.ss-bgc-red {
     background-color: #d63223;
 }
 
-.bgc-slate {
+.ss-bgc-slate {
     background-color: #333;
 }
 
 
 /* Text colour styles */
 
-.tc-white{
+.ss-tc-white{
     color:#ffffff!important;
 }
 
-.text-shadow {
+.ss-text-shadow {
     text-shadow: 2px 2px rgba(0,0,0,0.4);
 }
 
 /* Button colour styles */
 
-.wire-btn-carmine-pink{
+.ss-wire-btn-carmine-pink{
     color:#F35342!important;
     border-color:#F35342!important;
 }
-.wire-btn-white{
+.ss-wire-btn-white{
     color:#ffffff!important;
     border-color:#ffffff!important;
 }
 
 /*5.0 Images/Video*/
 
-.list img {
+.ss-list img {
     height: 154px;
     width: 138px;
     margin-left: -5px;
     margin-top: -3px;
-}
-
-iframe{
-    border:0;
-}
-
-video {
-    width: 100%;
 }
 
 /*6.0 Responsiveness
@@ -303,17 +288,17 @@ video {
 /*overwrite bootstraps fixed widths for responsiveness*/
 
 @media (min-width: 768px) {
-    .container {
+    .ss-container {
         width: 100%;
     }
 }
 @media (min-width: 992px) {
-    .container {
+    .ss-container {
         width: 100%;
     }
 }
 @media (min-width: 1200px) {
-    .container {
+    .ss-container {
         width: 100%;
     }
 }
