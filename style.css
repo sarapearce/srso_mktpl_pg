@@ -1,6 +1,9 @@
+
+/*created by Sara Pearce at Left Turn Only http://leftturnonly.tv*/
+
 /*
 Table of Contents
-1.0 Elements
+1.0 Elements (excluded to reduce conflicts)
 2.0 Sections
 3.0 Text
 4.0 Colors
@@ -8,21 +11,10 @@ Table of Contents
 6.0 Responsiveness
 */
 
-/*1.0 Elements*/
-/*
-body{
-    margin:0;
-    padding:0;
-    background:#FFF;
-    overflow-x:hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}*/
 
 /*2.0 Sections*/
 
 .ss-page-container {
-    /*border: 10px solid black;*/
     width: 100%;
     margin: 0;
     padding: 0;
@@ -46,12 +38,10 @@ body{
 
 
 .ss-banner {
-    /*border: 5px solid pink;*/
     width: 100%;
 }
 
 .ss-marketplace {
-    /*border: 5px solid blue;*/
     width: 100%;
 }
 
@@ -73,12 +63,9 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    /*border: 5px solid green;*/
 }
 
-/*TODO: rename this class*/
 .ss-short-rect {
-    /*width: 100%;*/
     height: 70px;
     text-transform: uppercase;
     margin: 0;
@@ -86,16 +73,13 @@ body{
 
 .ss-sm-col {
     border: 1px solid #737373;
-    width: 150px;
+    width: 250px;
     height: 350px;
-    /*I <3 box shadow. . . maybe can show SrSo?*/
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
     margin: 20px;
-    padding: 10px;
 }
 
 .ss-list {
-    /*display: flex;*/ 
     display: inline-block;
 }
 
@@ -132,7 +116,8 @@ body{
 /* = Buttons
 -------------------------------------------------------------- */
 .ss-btn {
-    width: 142px;
+    width: 250px;
+    
 }
 
 .ss-btn .ss-pull-right{
@@ -152,9 +137,6 @@ body{
     border: 0.5px solid #333333;
 }
 
-.ss-list .ss-btn {
-    margin-left: -7px;
-}
 .ss-dropdown a .ss-caret{
     margin:0 0 0 5px}
 
@@ -276,16 +258,14 @@ body{
 /*5.0 Images/Video*/
 
 .ss-list img {
-    height: 154px;
-    width: 138px;
-    margin-left: -5px;
-    margin-top: -3px;
+    height: 170px;
+    width: 250px;
 }
 
 /*6.0 Responsiveness
 -------------------------------------------------------------- */
 
-/*overwrite bootstraps fixed widths for responsiveness*/
+/*overwrite bootstraps fixed widths in responsiveness with some responsive widths*/
 
 @media (min-width: 768px) {
     .ss-container {
